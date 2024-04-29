@@ -21,3 +21,18 @@
 // Пр. Доколку dayNumber има вредност 2, во конзола треба да се испечати: The day is Monday. 
 //Доколку вредноста не е број кој што се наоѓа помеѓу 1 и 7, да се испечати: Invalid day number. 
 //Please enter a number between 1 and 7.
+
+let score = 78;
+if (score > 100 || score < 0) {
+    console.log("Invalid score! Please enter a score between 0 and 100");
+} else if (score <= 59) {
+    console.log("Grade: F");
+} else if(score >= 60  && score <= 69){
+    console.log("Grade: D");
+} else if(score >= 70 && score <= 79){
+    console.log("Grade: C");
+} else if(score >= 80 && score <= 89){
+    console.log("Grade: B");
+} else if(score >= 90 && score <= 100){
+    console.log("Grade: A");
+}
