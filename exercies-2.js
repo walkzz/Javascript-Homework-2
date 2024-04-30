@@ -39,3 +39,6 @@ function checkScore(score) {
 }
 let score = 78;
 checkScore(score); // Grade: C
+
+// b)
+let dayNumber = Math.floor(Math.random() * 8);
