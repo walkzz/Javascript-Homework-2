@@ -44,26 +44,26 @@ checkScore(score); // Grade: C
 let dayNumber = Math.floor(Math.random() * 10);
 switch (dayNumber) {
     case 1:
-        console.log(`The day is Sunday.`);
+        console.log(`The day is Sunday. Day number: ${dayNumber}`);
         break;
     case 2:
-        console.log(`The day is Monday.`);
+        console.log(`The day is Monday. Day number: ${dayNumber}`);
         break;
     case 3:
-        console.log(`The day is Tuesday.`);
+        console.log(`The day is Tuesday. Day number: ${dayNumber}`);
         break;
     case 4:
-        console.log(`The day is Wednesday..`);
+        console.log(`The day is Wednesday. Day number: ${dayNumber}`);
         break;
     case 5:
-        console.log(`The day is Thursday.`);
+        console.log(`The day is Thursday. Day number: ${dayNumber}`);
         break;
     case 6:
-        console.log(`The day is Friday.`);
+        console.log(`The day is Friday. Day number: ${dayNumber}`);
         break;
     case 7:
-        console.log(`The day is Saturday.`);
+        console.log(`The day is Saturday. Day number: ${dayNumber}`);
         break;
     default:
-        console.log(`Invalid day number. Please enter a number between 1 and 7.`);
+        console.log(`Invalid day number. Please enter a number between 1 and 7. Day number: ${dayNumber}`);
 }
