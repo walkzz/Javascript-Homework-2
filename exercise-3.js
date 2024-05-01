@@ -7,3 +7,6 @@
 // - третата функција потребно е да има два параметри(numbers) и да ги споредува истите. 
 // Ако броевите се исти, да ја испечати пораката "These numbers are equal" 
 // во спротивно да испечати "These numbers are not equal"
+const sumAll = (a, b, c) => {
+    return a + b + c;
+}
