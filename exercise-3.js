@@ -8,6 +8,7 @@
 // Ако броевите се исти, да ја испечати пораката "These numbers are equal" 
 // во спротивно да испечати "These numbers are not equal"
 const sumAll = (a, b, c) => {
+    // let sum = a + b + c;
     return a + b + c;
 }
 const funcStr = (str) => {
