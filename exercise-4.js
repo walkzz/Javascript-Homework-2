@@ -18,16 +18,40 @@
 // Користете console.log за да печатите соодветна порака во конзола.
 
 let age = 23;
-if(typeof age === "number"){
-    if(age >= 21){
+if (typeof age === "number") {
+    if (age >= 21) {
         console.log("You can vote and buy a liquor");
     }
-    else if(age < 21 && age >= 18){
+    else if (age < 21 && age >= 18) {
         console.log("You can vote but not buy liquor");
     }
-    else if(age < 18){
+    else if (age < 18) {
         console.log("You're underage");
     }
-}else{
+} else {
     console.log("Please enter a valid number");
 }
+// b)
+const checkMonth = (month) => {
+    switch (month) {
+        case "January":
+        case "March":
+        case "May":
+        case "July":
+        case "August":
+        case "October":
+        case "December":
+            console.log("31");
+            break;
+        case "February":
+        case "April":
+        case "June":
+        case "September":
+        case "November":
+            console.log("30");
+            break;
+        default:
+            console.log("Invalid input");
+    }
+}
+checkMonth("June");
