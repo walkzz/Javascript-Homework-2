@@ -10,3 +10,17 @@
 const sumAll = (a, b, c) => {
     return a + b + c;
 }
+const funcStr = (str) => {
+    return str;
+}
+const twoNumbers = (num1, num2) => {
+    if(num1 === num2){
+        console.log("These numbers are equal");
+    }
+    else{
+        console.log("These numbers are not equal");
+    }
+}
+console.log(sumAll(10, 10, 30));
+console.log(funcStr("Hello World"));
+twoNumbers(20, 20);
