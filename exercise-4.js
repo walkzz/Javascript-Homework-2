@@ -16,7 +16,7 @@
 // Користете if-else за да одредите дали надвор е жешко, топло или ладно. За жешко сме смета температура над 30 степени, 
 // за топло над 20 додека пак за ладно се смета температура под 15 степени. Степените помеѓу 15 и 20 се сметаат за умерено време. 
 // Користете console.log за да печатите соодветна порака во конзола.
-
+// a) --------------------------------------------------->
 let age = 23;
 if (typeof age === "number") {
     if (age >= 21) {
@@ -31,7 +31,7 @@ if (typeof age === "number") {
 } else {
     console.log("Please enter a valid number");
 }
-// b)
+// b) --------------------------------------------------->
 const checkMonth = (month) => {
     switch (month) {
         case "January":
@@ -55,3 +55,19 @@ const checkMonth = (month) => {
     }
 }
 checkMonth("June");
+// v) --------------------------------------------------->
+let temperature = Math.floor(Math.random() * 35);
+if (typeof temperature === "number") {
+    if (temperature > 30) {
+        console.log(`Extremely hot: ${temperature}`);
+    } else if (temperature <= 30 && temperature >= 20) {
+        console.log(`Warm: ${temperature}`);
+    } else if (temperature < 20 && temperature > 15) {
+        console.log(`Мoderately warm: ${temperature}`);
+    } else if (temperature < 15){
+        console.log(`Cold: ${temperature}`);
+    }
+}
+else {
+    console.log("Enter a temperature/number");
+}
